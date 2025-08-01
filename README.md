@@ -19,15 +19,10 @@ A Java-based full stack web application for managing events — allowing users t
 
 - Java 8
 - Spring MVC
-- JSP / Servlets
-- JPA (with persistence.xml)
+- JSP
+- Hibernate with JPA (with persistence.xml)
 - Maven
 - Apache Tomcat (for deployment)
 - MySQL (for event storage)
 
----
-
-## 🗄️ Database Configuration
-
-Ensure your database is set up and the `persistence.xml` file in `src/main/resources/META-INF/` contains the correct MySQL connection properties.
-
+This Event Management System showcases the use of a Java full-stack architecture with Spring MVC, Hibernate, and JSP, following best practices like layered architecture (Controller → Service → DAO) and the MVC pattern. It demonstrates how to build maintainable and scalable enterprise-level applications without relying on XML configuration, leveraging Java-based Spring annotations for flexibility and ease of development.
